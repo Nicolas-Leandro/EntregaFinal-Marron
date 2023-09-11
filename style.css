@@ -211,6 +211,11 @@ footer a img{
     ul a{
         height: 100%;
     }
+    .amigos{
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     
 }
