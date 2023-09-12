@@ -212,12 +212,15 @@ footer a img{
         height: 100%;
     }
     .nosotros{
+        flex-direction: column;
         align-items: center;
-    }
-    .nosotros h2{
         text-align: center;
     }
     .amigos{
+        flex-direction: column;
+        align-items: center;
+    }
+    #nosotros-page {
         flex-direction: column;
         align-items: center;
     }
