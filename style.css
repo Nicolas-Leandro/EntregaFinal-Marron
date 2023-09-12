@@ -50,8 +50,7 @@ header img{
     margin: 2px;
 }
 .nosotros img{
-    display: flex;
-    flex-direction: row;
+    display: inline;
     justify-content: space-evenly;
 }
 
