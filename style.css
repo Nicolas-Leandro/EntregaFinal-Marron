@@ -75,7 +75,7 @@ h4{
     font-size: 25px;
 }
 
-/* Page Nosotros */
+/* Page Nosotros Grid 
 
 #nosotros-page{
     display:grid;
@@ -137,7 +137,7 @@ h4{
     grid-area: img-3;
     grid-column: 3/4;
     grid-row: 3/4;
-}
+} */
 
 /* Adoptados */
 .adoptados-page h1{
