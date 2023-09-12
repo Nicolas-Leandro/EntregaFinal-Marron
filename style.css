@@ -52,6 +52,7 @@ header img{
 }
 .nosotros img{
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
 }
 
