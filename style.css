@@ -51,7 +51,7 @@ header img{
 }
 .nosotros img{
     display: inline;
-    align-items: center;
+    justify-items: center;
 }
 
 .amigos{
