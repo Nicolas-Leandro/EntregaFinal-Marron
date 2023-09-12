@@ -75,8 +75,30 @@ h4{
     font-size: 25px;
 }
 
-/* Page Nosotros Grid 
+#nosotros-page h1{
+    height: 200px;
+    background-image: url(./multimedia/banner-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration:underline;
+}
+#nosotros-page h2{
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: justify;
+    align-items: center; 
+    background-color:olivedrab;
+    padding: 3px;
+}
 
+#nosotros-page img{
+    width: 95%;
+    height: 95%;
+    padding: 5px; 
+}
+
+/* Page Nosotros Grid 
 #nosotros-page{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -86,7 +108,6 @@ h4{
     "h2     h2      h2"
     "img-1 img-2 img-3"
 }
-
 
 #nosotros-page h1{
     display:grid;
