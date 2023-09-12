@@ -214,6 +214,9 @@ footer a img{
     .nosotros{
         align-items: center;
     }
+    .nosotros h2{
+        text-align: center;
+    }
     .amigos{
         flex-direction: column;
         align-items: center;
