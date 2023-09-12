@@ -50,8 +50,8 @@ header img{
     margin: 2px;
 }
 .nosotros img{
-    display: inline;
-    justify-items: center;
+    display: inline-flex;
+    align-items: center;
 }
 
 .amigos{
