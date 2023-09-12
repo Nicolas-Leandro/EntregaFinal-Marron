@@ -44,10 +44,15 @@ header img{
     font-size: 30px;
     font-style:italic;
     Padding: 3px;
+    text-align: center;
 }
 .nosotros p{
     font-size: 20px;
     margin: 2px;
+}
+.nosotros img{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .amigos{
@@ -173,7 +178,6 @@ h4{
 .adoptados-page p{
     font-size: 20px; color: red;
 }
-
 
 /* Rescatados */
 .rescatados-page h1{
