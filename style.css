@@ -39,9 +39,6 @@ header img{
     text-align: center;
     font-style: oblique;
 }
-.nosotros {
-    display: flex;
-}
 .nosotros h2{
     font-size: 30px;
     font-style:italic;
@@ -54,7 +51,7 @@ header img{
 }
 .nosotros img{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
