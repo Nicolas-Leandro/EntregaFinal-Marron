@@ -1,0 +1,13 @@
+header{
+    position:sticky;
+    top:0;
+    background-color: $white;
+    z-index: 1;
+    img{
+        width: 100px;
+        background-color: $oliva;
+    }
+}
+#navbarNav.collapse.navbar-collapse{
+    justify-content: flex-end;
+}
