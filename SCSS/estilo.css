@@ -1,3 +1,9 @@
+#nosotros-page img {
+  width: 95%;
+  height: 95%;
+  padding: 5px;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -34,7 +40,7 @@ header img {
 .nosotros h2 {
   font-size: 30px;
   font-style: italic;
-  Padding: 3px;
+  padding: 3px;
   text-align: center;
 }
 .nosotros p {
@@ -58,6 +64,10 @@ header img {
   margin: 2px;
   justify-content: center;
   align-items: center;
+}
+
+h3:hover {
+  color: red;
 }
 
 h4 {
@@ -92,30 +102,19 @@ h4 {
   padding: 5px;
 }
 
-.adoptados-page h1 {
+.adoptados-page h1, .rescatados-page h1 {
   text-decoration: underline;
   font-weight: bold;
 }
-.adoptados-page h2 {
+.adoptados-page h2, .rescatados-page h2 {
   font-weight: lighter;
 }
-.adoptados-page p {
+.adoptados-page p, .rescatados-page p {
   font-size: 20px;
   color: red;
 }
 
-.rescatados-page h1 {
-  text-decoration: underline;
-  font-weight: bold;
-}
-.rescatados-page h2 {
-  font-weight: lighter;
-}
-.rescatados-page p {
-  font-size: 20px;
-  color: red;
-}
-.rescatados-page p img {
+.rescatados-page img {
   width: 300px;
 }
 
@@ -135,7 +134,7 @@ footer {
   text-align: center;
   background-color: #6b8e23;
   border: 1px solid black;
-  Padding: 10px;
+  padding: 10px;
 }
 footer a img {
   height: 30px;
