@@ -1,2 +1,13 @@
 $oliva: #6b8e23;
 $white: #ffffff;
+
+@mixin imagen ($var1, $var2, $var3){
+    width: $var1;
+    height: $var2;
+    padding: $var3;
+}
+
+#nosotros-page img{
+    @include imagen (95%, 95%, 5px)
+}
+
