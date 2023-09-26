@@ -31,6 +31,9 @@ header img {
   font-size: 40px;
   text-decoration: none;
 }
+.banner h1:hover {
+  color: red;
+}
 .banner p {
   font-size: 30px;
   text-align: center;
@@ -64,10 +67,6 @@ header img {
   margin: 2px;
   justify-content: center;
   align-items: center;
-}
-
-h3:hover {
-  color: red;
 }
 
 h4 {

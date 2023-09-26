@@ -11,6 +11,9 @@
         font-size: 40px;
         text-decoration: none;
     }
+    h1:hover {
+        color: red;
+    }
     p{
         font-size: 30px;
         text-align: center;
@@ -46,11 +49,6 @@
     justify-content: center;
     align-items: center;
 }
-
-h3:hover{
-    color: red;
-}
-
     
 
 h4{
