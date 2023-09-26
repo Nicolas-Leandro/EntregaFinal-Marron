@@ -21,7 +21,7 @@
     h2{
     font-size: 30px;
     font-style:italic;
-    Padding: 3px;
+    padding: 3px;
     text-align: center;
     }
     p{
@@ -46,6 +46,11 @@
     justify-content: center;
     align-items: center;
 }
+
+h3:hover{
+    color: red;
+}
+
     
 
 h4{
@@ -93,20 +98,12 @@ h4{
     }
 }
 .rescatados-page {
-    h1{
-    text-decoration:underline;
-    font-weight: bold;
-    }
-    h2{
-    font-weight: lighter;
-    }
-    p{
-    font-size: 20px; color: red;
+    @extend .adoptados-page;
         img{
         width: 300px;
         }
     }
-}
+
 #contacto-page {
     height: 400px;
     background-image: url(./multimedia/banner-3.png);
