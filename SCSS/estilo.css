@@ -30,6 +30,7 @@ header img {
   text-align: center;
   font-size: 40px;
   text-decoration: none;
+  color: black;
 }
 .banner h1:hover {
   color: red;
