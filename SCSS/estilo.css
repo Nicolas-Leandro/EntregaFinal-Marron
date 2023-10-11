@@ -104,7 +104,6 @@ h4 {
 #nosotros-page h1 {
   height: 200px;
   background-image: url(../multimedia/banner-1.png);
-  z-index: 1;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
