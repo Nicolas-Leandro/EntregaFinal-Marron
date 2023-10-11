@@ -32,34 +32,10 @@ header img {
   text-decoration: none;
   color: olivedrab;
 }
-.banner h1 a:hover {
-  color: red;
-}
 .banner p {
   font-size: 30px;
   text-align: center;
   font-style: oblique;
-  animation-name: efecto;
-  animation-duration: 2s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-}
-@keyframes efecto {
-  0% {
-    color: red;
-  }
-  25% {
-    color: blue;
-  }
-  50% {
-    color: black;
-  }
-  75% {
-    color: blue;
-  }
-  100% {
-    color: red;
-  }
 }
 
 .nosotros h2 {
