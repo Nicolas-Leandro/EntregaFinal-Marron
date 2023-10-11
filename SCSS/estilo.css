@@ -25,14 +25,14 @@ header img {
   background-position: center;
   background-size: cover;
 }
-.banner h1 {
+.banner h1 a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   font-size: 40px;
   text-decoration: none;
   color: olivedrab;
 }
-.banner h1:hover {
+.banner h1 a:hover {
   color: red;
 }
 .banner p {

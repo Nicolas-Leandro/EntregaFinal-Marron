@@ -5,16 +5,16 @@
     background-image: url(../multimedia/banner-2.png);
     background-position: center;
     background-size: cover;
-    h1{
+    h1 a{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         font-size: 40px;
         text-decoration: none;
         color: olivedrab;
-    }
-    h1:hover {
-        color: red;
-    }
+            &:hover {
+                color: red;
+            }
+        }    
     p{
         font-size: 30px;
         text-align: center;
