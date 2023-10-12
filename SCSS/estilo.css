@@ -25,15 +25,18 @@ header img {
   background-position: center;
   background-size: cover;
 }
-.banner h1 a {
+.banner h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   font-size: 40px;
   text-decoration: none;
-  color: olivedrab;
+  color: black;
 }
-.banner:hover {
-  color: red;
+.banner a {
+  color: black;
+}
+.banner a:hover {
+  color: #6b8e23;
 }
 .banner p {
   font-size: 30px;
@@ -44,24 +47,24 @@ header img {
   animation-delay: 0s;
   animation-iteration-count: infinite;
 }
+
 @keyframes efecto {
   0% {
-    color: red;
+    color: #6b8e23;
   }
   25% {
-    color: blue;
-  }
-  50% {
     color: black;
   }
+  50% {
+    color: #6b8e23;
+  }
   75% {
-    color: blue;
+    color: black;
   }
   100% {
-    color: red;
+    color: #6b8e23;
   }
 }
-
 .nosotros h2 {
   font-size: 30px;
   font-style: italic;
@@ -102,6 +105,10 @@ h4 {
 }
 
 #nosotros-page h1 {
+  height: 200px;
+  background-image: url(../multimedia/banner-1a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   text-decoration: underline;
 }

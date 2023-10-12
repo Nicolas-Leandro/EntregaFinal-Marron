@@ -5,17 +5,20 @@
     background-image: url(../multimedia/banner-2.png);
     background-position: center;
     background-size: cover;
-    h1 a{
+    h1 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         font-size: 40px;
         text-decoration: none;
-        color: olivedrab;
+        color: black;
         }
-        &:hover{
-                color: red;
+        a{
+        color: black;
+        }
+        a:hover{
+        color: $oliva;
         }   
-    p{
+        p{
         font-size: 30px;
         text-align: center;
         font-style: oblique;
@@ -23,25 +26,27 @@
         animation-duration: 2s;
         animation-delay: 0s;
         animation-iteration-count: infinite;
+        }
     }
+
     @keyframes efecto {
         0% {
-            color: red;
+            color: $oliva;
         }
         25% {
-            color: blue;
-        }
-        50% {
             color: black;
         }
+        50% {
+            color: $oliva;
+        }
         75% {
-            color: blue;
+            color: black;
         }
         100% {
-            color: red;
+            color: $oliva;
         }
     }
-}
+
 .nosotros {
     h2{
     font-size: 30px;
@@ -84,8 +89,12 @@ h4{
 }
 #nosotros-page {
     h1{
+    height: 200px;
+    background-image: url(../multimedia/banner-1a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     }
     p{
     font-size: 26px;
