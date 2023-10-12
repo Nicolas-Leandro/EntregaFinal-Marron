@@ -32,7 +32,7 @@ header img {
   text-decoration: none;
   color: olivedrab;
 }
-.banner h1 a:hover {
+.banner:hover {
   color: red;
 }
 .banner p {
@@ -102,14 +102,10 @@ h4 {
 }
 
 #nosotros-page h1 {
-  height: 200px;
-  background-image: url(../multimedia/banner-1a.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
   text-align: center;
   text-decoration: underline;
 }
-#nosotros-page h2 {
+#nosotros-page p {
   font-size: 26px;
   font-weight: lighter;
   text-align: justify;
@@ -117,7 +113,7 @@ h4 {
   background-color: #6b8e23;
   padding: 3px;
 }
-#nosotros-page h2 img {
+#nosotros-page p img {
   width: 95%;
   height: 95%;
   padding: 5px;
