@@ -5,43 +5,48 @@
     background-image: url(../multimedia/banner-2.png);
     background-position: center;
     background-size: cover;
-    h1 a{
+    h1 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
         font-size: 40px;
         text-decoration: none;
-        color: olivedrab;
-            &:hover {
-                color: red;
-            }
-        }    
-    p{
+        color: black;
+        }
+        a{
+        color: black;
+        }
+        a:hover{
+        color: $oliva;
+        }   
+        p{
         font-size: 30px;
         text-align: center;
         font-style: oblique;
         animation-name: efecto;
         animation-duration: 2s;
         animation-delay: 0s;
-        animation-iteration-count:infinite;    
+        animation-iteration-count: infinite;
+        }
     }
-    @keyframes efecto{
-        0%{
-            color: red;
+
+    @keyframes efecto {
+        0% {
+            color: $oliva;
         }
-        25%{
-            color: blue;
-        }
-        50%{
+        25% {
             color: black;
         }
-        75%{
-            color: blue;
+        50% {
+            color: $oliva;
         }
-        100%{
-            color: red;
+        75% {
+            color: black;
+        }
+        100% {
+            color: $oliva;
         }
     }
-}
+
 .nosotros {
     h2{
     font-size: 30px;
@@ -55,7 +60,7 @@
     }
     img{
     display: inline-flex;
-    align-items: center;
+    justify-items: center;
     }
 }
 .amigos{
@@ -89,9 +94,9 @@ h4{
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     }
-    h2{
+    p{
     font-size: 26px;
     font-weight: lighter;
     text-align: justify;
