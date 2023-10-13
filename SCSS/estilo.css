@@ -76,8 +76,9 @@ header img {
   margin: 2px;
 }
 .nosotros .nosotros-imagen {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .amigos {
