@@ -25,15 +25,18 @@ header img {
   background-position: center;
   background-size: cover;
 }
-.banner h1 a {
+.banner h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   font-size: 40px;
   text-decoration: none;
-  color: olivedrab;
+  color: black;
 }
-.banner h1 a:hover {
-  color: red;
+.banner a {
+  color: black;
+}
+.banner a:hover {
+  color: #6b8e23;
 }
 .banner p {
   font-size: 30px;
@@ -44,24 +47,24 @@ header img {
   animation-delay: 0s;
   animation-iteration-count: infinite;
 }
+
 @keyframes efecto {
   0% {
-    color: red;
+    color: #6b8e23;
   }
   25% {
-    color: blue;
-  }
-  50% {
     color: black;
   }
+  50% {
+    color: #6b8e23;
+  }
   75% {
-    color: blue;
+    color: black;
   }
   100% {
-    color: red;
+    color: #6b8e23;
   }
 }
-
 .nosotros h2 {
   font-size: 30px;
   font-style: italic;
@@ -74,7 +77,7 @@ header img {
 }
 .nosotros img {
   display: inline-flex;
-  align-items: center;
+  justify-items: center;
 }
 
 .amigos {
@@ -109,7 +112,7 @@ h4 {
   text-align: center;
   text-decoration: underline;
 }
-#nosotros-page h2 {
+#nosotros-page p {
   font-size: 26px;
   font-weight: lighter;
   text-align: justify;
@@ -117,7 +120,7 @@ h4 {
   background-color: #6b8e23;
   padding: 3px;
 }
-#nosotros-page h2 img {
+#nosotros-page p img {
   width: 95%;
   height: 95%;
   padding: 5px;
